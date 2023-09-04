@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="don.css">
+    <script src="https://kit.fontawesome.com/1139a660c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+
+        <div class="container">
+
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" onclick="closemenu()" class="close-menu"><i class="fa-solid fa-times"></i>
+                        </a></li>
+                </ul>
+                <i class="fa-solid fa-bars" id="menu-toggle" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p> Full Stack Developer</p>
+
+                <h1> Hi, I am <span>Sasi</span><br>From India</h1>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    </div>
+
+    </div>
+
+    <!---------about-------->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="milky.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hello! I'm Sasi, a passionate Full Stack Developer with a love for creating innovative and
+                    efficient web applications. With a strong foundation in both front-end and back-end development, I
+                    strive to build user-friendly, robust, and scalable solutions.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tabs" id="Skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android or IOS app</li>
+                        <li><span>UI/UX</span><br>Desiging Web or App Interface</li>
+                        <li><span>Web Deployment</span><br>Deploying and Optimizing servers</li>
+
+
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Map Quality Analyst</span><br>In Telus International</li>
+                        <li><span>Content Writer</span><br>Star Gazing Ludhiana</li>
+                        <li><span>UI/UX</span><br>Freelance</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2008</span><br>B.E. Civil Engineering</li>
+                        <li><span>2013</span><br>HSC in Vinayaka Vidyalaya</li>
+                        <li><span>2015</span><br>SSLC in Vinayaka Vidyalaya</li>
+
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+
+                    <p>I'm a firm believer in the power of design to convey messages, tell stories, and leave a lasting
+                        impression. Whether it's a personal portfolio, e-commerce platform, or corporate website, I
+                        approach each project with enthusiasm, creativity, and a commitment to excellence.</p>
+
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2> Web Development</h2>
+
+                    <p>I am a firm believer in the importance of clean code, scalability, and continuous learning. My
+                        goal is to create web solutions that not only meet the needs of today but are also prepared for
+                        the challenges of tomorrow. I am enthusiastic about staying up-to-date with the latest
+                        technologies and best practices, always seeking new opportunities for innovation.</p>
+
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2> Server Deployment </h2>
+
+                    <p>I believe in the power of automation and DevOps principles to streamline deployment processes,
+                        reduce downtime, and enhance scalability. My goal is to empower businesses to scale their web
+                        applications effortlessly while maintaining the highest standards of reliability and security.
+                    </p>
+
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    <!-----portfolio------->
+
+    <div id="portfolio">
+
+        <div class="container">
+
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+
+                <div class="work"> <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p> i built this app to make people connect</p>
+                        <a href="#"> <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="work"> <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p> i built this app to make people connect</p>
+                        <a href="#"> <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work"> <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p> i built this app to make people connect</p>
+                        <a href="#"> <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <a href="#" class="btn"> See more</a>
+        </div>
+    </div>
+
+    <!------Conatct----->
+
+    <div id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+
+                    <p><i class="fa-solid fa-paper-plane"></i>sasid868@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+916379574210</p>
+                    <div class="social-icons"> <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-reddit"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+
+
+
+                </div>
+                <div class="contact-right">
+
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p> Copyright © Sasi. Made With Passion</p>
+        </div>
+
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tabs");
+            }
+
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tabs");
+        }
+    </script>
+
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(
+
+        ) {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        var menuToggle = document.getElementById("menu-toggle");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px"; // Adjust this value as needed to completely hide the menu
+        }
+
+        // Add a click event listener to the menu toggle button
+        menuToggle.addEventListener("click", function () {
+            // Check if the menu is currently open or closed
+            var currentRightValue = getComputedStyle(sidemenu).right;
+
+            if (currentRightValue === "0px" || currentRightValue === "0px") {
+                // If the menu is open or partially open, close it
+                closemenu();
+            } else {
+                // If the menu is closed, open it
+                openmenu();
+            }
+        });
+
+        function closemenu() {
+            sidemenu.style.right = "-200px"; // Adjust this value as needed to completely hide the menu
+        }
+    </script>
+</body>
+
+</html>
